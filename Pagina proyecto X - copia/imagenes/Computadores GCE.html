@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computadores GCE</title>
+    
+<link rel="stylesheet" href="./Computadores GCE_files/estilos.css"></head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Computadores GCE</div>
+            <ul class="nav-links">
+                <li><a href="http://127.0.0.1:5500/index.html#">inicio</a></li>
+                <li><a href="http://127.0.0.1:5500/computadoores">computadoores</a></li>
+                <li><a href="http://127.0.0.1:5500/contacto">contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Encuentra tu computador ideal </h1>
+            <p>Los mejores computadoores del valle del cauca y de el cauca</p>
+            <button class="cta-button"> Ver computadoores</button>
+        </section>
+        <section id="computadores">
+            <h2>Nuestros Computadoores</h2>
+            <div class="computador-grid">
+                <div class="computador-card">
+                    <img src="./Computadores GCE_files/D_NQ_NP_831625-MCO89464177843_082025-O.png" alt="logo">
+                    <h3>computador AMD</h3>
+                    <p class="precio">2,100,000</p>
+                    <p class="descripcion">Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22 </p>
+                    <button>ver detalles</button>
+                </div>
+                <div class="computador-card">
+                    <img src="./Computadores GCE_files/descarga (1).jpeg" alt="logo">
+                    <h3> Computador intel</h3>
+                    <p class="precio">5,100,000</p>
+                    <p class="descripcion">Pc corporatico Rgb Ryzen 7 9000X3D + RTX 5060ti + 32gb Ram +ssd 1TB + SIN MONITOR </p>
+                    <button>ver detalles</button>
+                </div>
+                <div class="computador-card">
+                    <img src="./Computadores GCE_files/descarga.jpeg" alt="logo">
+                    <h3>Canaima</h3>
+                    <p class="precio">20,100,000</p>
+                    <p class="descripcion">Pc estudiantes Rgb Ryzen 9 9000X3D + RTX 5060ti + 128gb +ssd 512tb</p>
+                    <button>ver detalles</button>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required="">
+                <input type="email" placeholder="Correo Electrónico" required="">
+                <textarea placeholder="Mensaje" required=""></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©Computadoores GCE, Todos los derechos reservados</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
